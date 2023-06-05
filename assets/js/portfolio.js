@@ -17,7 +17,7 @@ $(document).ready(function(){
     //MAGNIFIC-POPUP
     $(".gallery").magnificPopup({
         
-        delegate: "a",
+        delegate: ".image-popup",
         type: "image",
         removalDelay: 500, //delay removal by X to allow out-animation
         gallery:{
